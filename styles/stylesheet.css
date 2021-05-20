@@ -1,10 +1,23 @@
 body.me {
   background-color: purple;
   }
-  .nav {
+  a:hover[href="file:///C:/Users/smith/OneDrive/Desktop/html100/portfolio/index.html"] {
     background-color: red;
-    width: auto;
+    padding:inherit;
+    }
+  a:hover[href="file:///C:/Users/smith/OneDrive/Desktop/html100/portfolio/semantic-elements.html"] {
+      background-color: red;
+      padding:inherit;
   }
+  a:hover[href="#"] {
+      background-color: red;
+      padding:inherit;
+  }
+  a:hover[href="file:///C:/Users/smith/OneDrive/Desktop/html100/portfolio/about-me.html"] {
+      background-color: red;
+      padding:inherit;
+  }
+
   .red-text {
     color: red;
     font-style: italic;
@@ -27,6 +40,12 @@ body.me {
     font-style: oblique;
     font-size: 35px;
   }
+  img {
+    border-style: solid;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
 
   footer {
     font: arial;
@@ -35,4 +54,33 @@ body.me {
   }
   body.about-me {
     background-color: purple;
+  }
+  body.home{
+    background-color: #0097c7;
+  }
+  h2 {
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 35px;
+  }
+  h1 {
+    color: blue;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align:center;
+    text-decoration: underline;
+  }
+  main.main {
+    text-align: center;
+  }
+  p.semantic {
+    color: red;
+  }
+  body.semantic {
+    background-color: #0097c7;
+  }
+  p.home {
+    color: red;
+    font-style: italic;
   }
