@@ -1,0 +1,38 @@
+body.me {
+  background-color: purple;
+  }
+  .nav {
+    background-color: red;
+    width: auto;
+  }
+  .red-text {
+    color: red;
+    font-style: italic;
+    font-size: 20px
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .about-me {
+    color: blue;
+    font-weight: bolder;
+    font-size: 50px
+  }
+
+  .short-bio {
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 35px;
+  }
+
+  footer {
+    font: arial;
+    font-size: 10px;
+    font-style: normal;
+  }
+  body.about-me {
+    background-color: purple;
+  }
